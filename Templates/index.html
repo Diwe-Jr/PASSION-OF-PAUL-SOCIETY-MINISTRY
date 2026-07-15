@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Evangelism Donation</title>
+</head>
+<body>
+
+<h2>Support Evangelism Ministry</h2>
+
+<form action="/donate" method="POST">
+
+    <input type="text" name="name" placeholder="Full Name" required><br><br>
+
+    <input type="text" name="phone" placeholder="Phone Number" required><br><br>
+
+    <input type="number" name="amount" placeholder="Amount (TZS)" required><br><br>
+
+    <select name="category">
+        <option value="General Offering">General Offering</option>
+        <option value="Evangelism Support">Evangelism Support</option>
+        <option value="Gospel Mission">Mission Outreach</option>
+    </select><br>
+    <select name="month" required>
+    		<option value="January">January</option>
+    		<option value="February">February</option>
+    		<option value="March">March</option>
+    		<option value="April">April</option>
+    		<option value="May">May</option>
+    		<option value="June">June</option>
+    		<option value="July">July</option>
+    		<option value="August">August</option>
+    		<option value="September">September</option>
+    		<option value="October">October</option>
+    		<option value="November">November</option>
+    		<option value="December">December</option>
+     </select>
+
+    <button type="submit">Donate Now</button>
+
+</form>
+
+</body>
+</html>

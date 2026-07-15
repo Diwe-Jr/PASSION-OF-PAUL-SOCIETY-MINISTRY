@@ -1,0 +1,14 @@
+<h2>Search Donor</h2>
+
+<form method="POST">
+    <input type="text" name="keyword" placeholder="Name or Phone">
+    <button type="submit">Search</button>
+</form>
+
+<hr>
+
+{% for d in results %}
+<p>
+    <b>{{ d[1] }}</b> - {{ d[2] }} - TZS {{ d[3] }} - {{ d[4] }} - {{ d[5] }}
+</p>
+{% endfor %}
